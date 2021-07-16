@@ -35,5 +35,3 @@ apiTest框架基于Python3+pytest+requests+allure组成，通过接口测试用�
 --test目录，单元测试文件
 |
 --case_template.txt，模板文件，生成测试脚本的模板
-
-效果展示
