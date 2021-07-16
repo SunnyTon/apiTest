@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "cases.test_activitybullish_flipcard",
+    "children" : [ {
+      "name" : "test_get_bullish_info",
+      "uid" : "90ddb6cafcd66c63",
+      "parentUid" : "62923813ef2dd13974a9fcaa61e48687",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419532822,
+        "stop" : 1624419533306,
+        "duration" : 484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_bullish_value",
+      "uid" : "be718d6947e8f411",
+      "parentUid" : "62923813ef2dd13974a9fcaa61e48687",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624419533311,
+        "stop" : 1624419533632,
+        "duration" : 321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_flid_card",
+      "uid" : "8d4445c9e348658",
+      "parentUid" : "62923813ef2dd13974a9fcaa61e48687",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624419534212,
+        "stop" : 1624419534441,
+        "duration" : 229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cases.test_activitybullish_flipcard"
+  } ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "618牛气冲天游戏抽卡相关接口",
+    "children" : [ {
+      "name" : "GetBullishInfo",
+      "children" : [ {
+        "name" : "test_get_bullish_info",
+        "uid" : "90ddb6cafcd66c63",
+        "parentUid" : "581617534e894a6a53ae3cbb6dce6eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624419532822,
+          "stop" : 1624419533306,
+          "duration" : 484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "581617534e894a6a53ae3cbb6dce6eff"
+    }, {
+      "name" : "AddBullishValue",
+      "children" : [ {
+        "name" : "test_add_bullish_value",
+        "uid" : "be718d6947e8f411",
+        "parentUid" : "8b1dfb9b70816daccf8e289c55331083",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624419533311,
+          "stop" : 1624419533632,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b1dfb9b70816daccf8e289c55331083"
+    }, {
+      "name" : "FlipCard",
+      "children" : [ {
+        "name" : "test_flid_card",
+        "uid" : "8d4445c9e348658",
+        "parentUid" : "504ff5af3050e077598a424925427b18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624419534212,
+          "stop" : 1624419534441,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "504ff5af3050e077598a424925427b18"
+    } ],
+    "uid" : "becd5fc750efabbcc9096d0277ee0480"
+  } ]
+}

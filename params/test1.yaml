@@ -1,0 +1,24 @@
+---
+Basic:
+  dec: "基础设置"
+  parameters:
+    -
+      url: /ess-ucs-api/doz/do/login/common
+      data: {
+            "captchaKey": "rzx9mtymqojlrvr6g0osswsx34vqsdyj",
+            "loginFrom": 1,
+            "loginPlatform": 1,
+            "platFrom": "pc",
+            "redirectUrl": "https%3a%2f%2fwx.233.com%2fuc%2fuser",
+            "url": "http://passport.233.com/login/?redirectURL=https%3a%2f%2fwx.233.com%2fuc%2fuser",
+            "originUrl": "",
+            "originSource": "直接访问",
+            "registChannel": "直接访问",
+            "deviceId": "9df65a74-df4b-4ac3-8fab-8266dcafc35a",
+            "deviceBrand": "Windows 10",
+            "appVersion": "谷歌 Chrome/89.0.4389.90",
+            "username": "15901759418",
+            "password": "513f0b2737862693bd54573b745cde1b",
+            "captcha": ""
+        }
+      header: {'content-type': "application/json"}

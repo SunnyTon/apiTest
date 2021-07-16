@@ -1,0 +1,31 @@
+[ {
+  "uid" : "90ddb6cafcd66c63",
+  "name" : "test_get_bullish_info",
+  "time" : {
+    "start" : 1624419532822,
+    "stop" : 1624419533306,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8d4445c9e348658",
+  "name" : "test_flid_card",
+  "time" : {
+    "start" : 1624419534212,
+    "stop" : 1624419534441,
+    "duration" : 229
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "be718d6947e8f411",
+  "name" : "test_add_bullish_value",
+  "time" : {
+    "start" : 1624419533311,
+    "stop" : 1624419533632,
+    "duration" : 321
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+} ]

@@ -1,0 +1,144 @@
+{
+  "uid" : "90ddb6cafcd66c63",
+  "name" : "test_get_bullish_info",
+  "fullName" : "cases.test_activitybullish_flipcard.TestActivityBullishFlipCard#test_get_bullish_info",
+  "historyId" : "63f08e1f2b7df7b8fe96d35d86eeaf65",
+  "time" : {
+    "start" : 1624419532822,
+    "stop" : 1624419533306,
+    "duration" : 484
+  },
+  "description" : "\n           用例描述：获取牛气活动信息\n           缺少cookie\n        ",
+  "descriptionHtml" : "<pre><code>       用例描述：获取牛气活动信息\n       缺少cookie\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n           用例描述：获取牛气活动信息\n           缺少cookie\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "正确的参数",
+      "time" : {
+        "start" : 1624419533294,
+        "stop" : 1624419533306,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e8fd5fac92b0662",
+        "name" : "headers: ",
+        "source" : "1e8fd5fac92b0662.attach",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "9bf787b787d6c109",
+        "name" : "url: ",
+        "source" : "9bf787b787d6c109.attach",
+        "type" : "text/plain",
+        "size" : 66
+      }, {
+        "uid" : "ff3546337119e264",
+        "name" : "params: ",
+        "source" : "ff3546337119e264.attach",
+        "type" : "text/plain",
+        "size" : 95
+      }, {
+        "uid" : "44d12ac3608d5014",
+        "name" : "status：",
+        "source" : "44d12ac3608d5014.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "5c22e60037497d4a",
+        "name" : "body: ",
+        "source" : "5c22e60037497d4a.attach",
+        "type" : "text/plain",
+        "size" : 4952
+      }, {
+        "uid" : "9285d2e8c706676b",
+        "name" : "期望结果: 10006",
+        "source" : "9285d2e8c706676b.attach",
+        "type" : "text/plain",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "参数为空",
+      "time" : {
+        "start" : 1624419533306,
+        "stop" : 1624419533306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "618牛气冲天游戏抽卡相关接口"
+  }, {
+    "name" : "story",
+    "value" : "GetBullishInfo"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_activitybullish_flipcard"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestActivityBullishFlipCard"
+  }, {
+    "name" : "host",
+    "value" : "开发部-唐曙光"
+  }, {
+    "name" : "thread",
+    "value" : "3912-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_activitybullish_flipcard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90ddb6cafcd66c63.json",
+  "parameterValues" : [ ]
+}

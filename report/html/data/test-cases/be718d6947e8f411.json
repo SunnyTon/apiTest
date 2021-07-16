@@ -1,0 +1,137 @@
+{
+  "uid" : "be718d6947e8f411",
+  "name" : "test_add_bullish_value",
+  "fullName" : "cases.test_activitybullish_flipcard.TestActivityBullishFlipCard#test_add_bullish_value",
+  "historyId" : "c3e6c4689092fda7d84511172a9f9a2c",
+  "time" : {
+    "start" : 1624419533311,
+    "stop" : 1624419533632,
+    "duration" : 321
+  },
+  "description" : "\n           用例描述：累计牛气值\n        ",
+  "descriptionHtml" : "<pre><code>       用例描述：累计牛气值\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 10001 == 10006",
+  "statusTrace" : "self = <test_activitybullish_flipcard.TestActivityBullishFlipCard object at 0x000001E4CBD0A580>\n\n    @allure.severity('blocker')  # severity定义用例等级\n    @allure.story('AddBullishValue')  # story定义接口场景\n    def test_add_bullish_value(self):\n        \"\"\"\n           用例描述：累计牛气值\n        \"\"\"\n        url = \"https://api.233.com/sitenews/api/v1/activitybullish/AddBullishValue\"\n        params = {\n            \"callback\": \"jQuery21106655809859394386_1622799698917\",\n            \"activityId\": 848,\n            \"_\": 1622799698918\n        }\n        headers = {'content-type': \"application/json\"}\n        response = requests.get(url=url, data=json.dumps(params), headers=headers)\n        data = response.json()  # 将响应结果转成json对象\n        s = data.get('s')  # 提取key对象的value\n        with allure.step(\"正确的参数\"):\n            allure.attach(str(headers), \"headers: \")  # 往报告中添加请求头\n            allure.attach(str(url), \"url: \")  # 往报告中添加请求地址\n            allure.attach(str(params), \"params: \")  # 往报告中添加请求参数\n            allure.attach(str(response.status_code), \"status：\")  # 往报告中添加响应状态码\n            allure.attach(str(response.text), \"body: \")  # 往报告中添加响应结果\n            allure.attach(\"实际结果：\" + str(response.json()['s']), \"期望结果: \" + str(10006))  # 往报告中添加断言结果\n>       assert s == 10006  # 提取响应结果中的s作为断言\nE       assert 10001 == 10006\n\ncases\\test_activitybullish_flipcard.py:65: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n           用例描述：累计牛气值\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 10001 == 10006",
+    "statusTrace" : "self = <test_activitybullish_flipcard.TestActivityBullishFlipCard object at 0x000001E4CBD0A580>\n\n    @allure.severity('blocker')  # severity定义用例等级\n    @allure.story('AddBullishValue')  # story定义接口场景\n    def test_add_bullish_value(self):\n        \"\"\"\n           用例描述：累计牛气值\n        \"\"\"\n        url = \"https://api.233.com/sitenews/api/v1/activitybullish/AddBullishValue\"\n        params = {\n            \"callback\": \"jQuery21106655809859394386_1622799698917\",\n            \"activityId\": 848,\n            \"_\": 1622799698918\n        }\n        headers = {'content-type': \"application/json\"}\n        response = requests.get(url=url, data=json.dumps(params), headers=headers)\n        data = response.json()  # 将响应结果转成json对象\n        s = data.get('s')  # 提取key对象的value\n        with allure.step(\"正确的参数\"):\n            allure.attach(str(headers), \"headers: \")  # 往报告中添加请求头\n            allure.attach(str(url), \"url: \")  # 往报告中添加请求地址\n            allure.attach(str(params), \"params: \")  # 往报告中添加请求参数\n            allure.attach(str(response.status_code), \"status：\")  # 往报告中添加响应状态码\n            allure.attach(str(response.text), \"body: \")  # 往报告中添加响应结果\n            allure.attach(\"实际结果：\" + str(response.json()['s']), \"期望结果: \" + str(10006))  # 往报告中添加断言结果\n>       assert s == 10006  # 提取响应结果中的s作为断言\nE       assert 10001 == 10006\n\ncases\\test_activitybullish_flipcard.py:65: AssertionError",
+    "steps" : [ {
+      "name" : "正确的参数",
+      "time" : {
+        "start" : 1624419533611,
+        "stop" : 1624419533632,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc1df294395ee254",
+        "name" : "headers: ",
+        "source" : "dc1df294395ee254.attach",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "92ca91de83243429",
+        "name" : "url: ",
+        "source" : "92ca91de83243429.attach",
+        "type" : "text/plain",
+        "size" : 67
+      }, {
+        "uid" : "89bc01b23459f347",
+        "name" : "params: ",
+        "source" : "89bc01b23459f347.attach",
+        "type" : "text/plain",
+        "size" : 95
+      }, {
+        "uid" : "ff79cf5ee99f40f3",
+        "name" : "status：",
+        "source" : "ff79cf5ee99f40f3.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "9e1ff80800bdee46",
+        "name" : "body: ",
+        "source" : "9e1ff80800bdee46.attach",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "32ad888cb6dead1a",
+        "name" : "期望结果: 10006",
+        "source" : "32ad888cb6dead1a.attach",
+        "type" : "text/plain",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "618牛气冲天游戏抽卡相关接口"
+  }, {
+    "name" : "story",
+    "value" : "AddBullishValue"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_activitybullish_flipcard"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestActivityBullishFlipCard"
+  }, {
+    "name" : "host",
+    "value" : "开发部-唐曙光"
+  }, {
+    "name" : "thread",
+    "value" : "3912-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_activitybullish_flipcard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "be718d6947e8f411.json",
+  "parameterValues" : [ ]
+}

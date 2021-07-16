@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 10001 == 10006",
+      "children" : [ {
+        "name" : "test_add_bullish_value",
+        "uid" : "be718d6947e8f411",
+        "parentUid" : "e77ac287b4124ee2415f2447ad61a75b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624419533311,
+          "stop" : 1624419533632,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_flid_card",
+        "uid" : "8d4445c9e348658",
+        "parentUid" : "e77ac287b4124ee2415f2447ad61a75b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624419534212,
+          "stop" : 1624419534441,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e77ac287b4124ee2415f2447ad61a75b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
